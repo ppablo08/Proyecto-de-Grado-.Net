@@ -14,7 +14,7 @@ namespace WF_GestionNC.Controllers
         
         public ActionResult Index(string Login)
         {
-            //ViewData["Message"] = "Welcome to ASP.NET MVC!";
+            ViewData["Message"] = "Welcome to ASP.NET MVC!";
             if (Login == "" || string.IsNullOrEmpty(Login))
             {
                 this.login();                
