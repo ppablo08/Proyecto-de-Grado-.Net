@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -14,6 +14,7 @@ namespace WF_GestionNC.Controllers
         
         public ActionResult Index(string Login)
         {
+            //HUBO UN CAMBIO
             ViewData["Message"] = "Welcome to ASP.NET MVC!";
             if (Login == "" || string.IsNullOrEmpty(Login))
             {
